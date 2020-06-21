@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 1,
+    "pending": 0,
+    "failures": 3,
+    "start": "2020-06-21T13:26:46.853Z",
+    "end": "2020-06-21T13:26:46.856Z",
+    "duration": 3
+  },
+  "tests": [
+    {
+      "suite": "Test Suite 1",
+      "title": "testing tests",
+      "fullTitle": "Test Suite 1 testing tests",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 2 args",
+      "fullTitle": "Test Suite 2 correctly adds 2 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    },
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 3 args",
+      "fullTitle": "Test Suite 2 correctly adds 3 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    },
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 4 args",
+      "fullTitle": "Test Suite 2 correctly adds 4 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 2 args",
+      "fullTitle": "Test Suite 2 correctly adds 2 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    },
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 3 args",
+      "fullTitle": "Test Suite 2 correctly adds 3 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    },
+    {
+      "suite": "Test Suite 2",
+      "title": "correctly adds 4 args",
+      "fullTitle": "Test Suite 2 correctly adds 4 args",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (index.js:41:19)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "add is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "suite": "Test Suite 1",
+      "title": "testing tests",
+      "fullTitle": "Test Suite 1 testing tests",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

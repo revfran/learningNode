@@ -1,0 +1,19 @@
+{
+  "name": "learningnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "run": "node index.js",
+    "debug": "node --nolazy --inspect-brk=9229 index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.2.0"
+  }
+}
