@@ -7,8 +7,10 @@ describe/context/it syntax is used
 
 ## Mocha as an embedded framework to execute dynamic tests
 As a tool for testing, sometimes you don't have a static test suites to run but a set of assertions that you want to control in runtime. For instance, to execute different assertions depending on config flags for different environments, or different test level. In that case it can be convenient to embed mocha in your dynamic test execution, having a builder class to handle different test scenarios.
-A mochaInstance containing test suites should be creating, and then groups of asserts can be added as individual tests
-mochaInstance.run() is the run
+A mochaInstance containing test suites should be created, and then groups of asserts can be added as individual tests
+mochaInstance.run() is the way to execute
+"index.js" file is used for this way of running tests
+
 
 
 ## Mocha reporting
@@ -20,7 +22,8 @@ There was a contributor @mkamioner that tried to modify json reporter to do that
 - https://github.com/mkamioner/mocha/blob/55b1f82e2c1b4d91dec4690c574314dfcc9f766d/lib/reporters/json.js
 
 
-By default mochaReport.json file is created (attached as example).
+By default mochaReport.json [mochaReport.json](./mochaReport.json) file is created (attached as example). 
+
 
 What could be enhanced:
 - Reports per suite, with a suites node added to the json file
